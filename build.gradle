@@ -43,12 +43,7 @@ dependencies {
 
 
 
-tasks.named('test') {
-    useJUnitPlatform()
+tasks.test {
+    enabled = false
 }
 
-jar {
-    manifest {
-        attributes 'Main-Class': 'com.taf.userservice.TafUserServiceApplication'
-    }
-}

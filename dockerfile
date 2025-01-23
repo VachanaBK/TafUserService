@@ -1,5 +1,5 @@
 # Use the official OpenJDK image as the base image
-FROM amazoncorretto:17
+FROM 920373018373.dkr.ecr.us-east-2.amazonaws.com/amazoncorretto:17-alpine
 
 # Set the working directory inside the container
 WORKDIR /app
